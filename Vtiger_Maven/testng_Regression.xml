@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="Regression" />
+</run>
+</groups>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value ="chrome"/>
+    <classes>
+      <class name="com.crm.VtigerTestCases.TC_11_creatNewLeadByGivingValidInputToAnnualRevenueTest"/>
+      <class name="com.crm.VtigerTestCases.TC_13_creatNewLeadByGivingValidInputToNoOfEmployeeTest"/>
+      <class name="com.crm.VtigerTestCases.TC_12_creatNewLeadByGivingInvalidInputToAnnualRevenueTest"/>
+      <class name="com.crm.VtigerTestCases.TC_15_creatNewLeadByGivingValidInputToEmailAndSecondaryEmailTest"/>
+      <class name="com.crm.VtigerTestCases.TC_14_creatNewLeadByGivingInvalidInputToNoOfEmployeeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

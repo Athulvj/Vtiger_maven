@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.crm.Vtiger.GenericUtilities.ListenerS"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.VtigerTestCases.TC_13_creatNewLeadByGivingValidInputToNoOfEmployeeTest">
+        <methods>
+          <include name="creatNewLeadByGivingValidInputToNoOfEmployeeTest"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="closeDB"/>
+          <include name="login"/>
+          <include name="connectToDB"/>
+        </methods>
+      </class> <!-- com.crm.VtigerTestCases.TC_13_creatNewLeadByGivingValidInputToNoOfEmployeeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
